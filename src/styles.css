@@ -1,0 +1,135 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #E5E5E5;
+}
+
+.rectangle1 {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    width: 472px;
+    height: 88px;
+    padding: 12px;
+    margin: 3em;
+}
+
+.image1 {
+    width: 64px;
+    height: 64px;
+    padding-right: 12px;
+    margin: 0em;
+}
+
+.title {
+    width: 372px;
+    height: 19px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-bottom: 4px;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0em;
+}
+
+.content1 {
+    width: 372px;
+    height: 34px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0em;
+}
+
+.rectangle2 {
+    box-sizing: border-box;
+    border-style: solid;
+    border-width: 2px;
+    border-color: black;
+    display: flex;
+    flex-direction: column;
+    width: 413px;
+    height: 466px;
+    margin: 3em;
+    background-color: white;
+}
+
+.image2 {
+    width: 409px;
+    height: 150px;
+}
+
+.title2 {
+    width: 381px;
+    height: 29px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.content2 {
+    width: 381px;
+    height: 144px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+.button {
+    width: 100px;
+    height: 47px;
+    background: #1C62EA;
+    border-radius: 4px; 
+    border-width: 0;
+    color: white;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+}
+
+.buttonDiv {
+    padding-left: 157px;
+    padding-right: 156px;
+}
+
+.foot {
+    flex-direction: row;
+}
+
+.date {
+    width: 68px;
+    height: 15px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 16px;
+    padding-right: 250px;
+    display: inline-flex;
+    color: #808080;
+}
+
+.image3 {
+    width: 24px;
+    height: 24px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+}
